@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio – Nzabinesha Merci</title>
+  <link rel="stylesheet" href="test.css">
+  <script src="https://kit.fontawesome.com/df54309e36.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header id="header">
+    <div class="container">
+      <nav>
+        <img src="/image/Logo Marketing Agency Digital..png Marketing Agency Digital..png" alt="Logo" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><button class="close-btn" onclick="closeMenu()"><i class="fa-solid fa-circle-xmark"></i></button></li>
+        </ul>
+        <button class="open-btn" onclick="openMenu()"><i class="fa-solid fa-bars"></i></button>
+      </nav>
+      <div class="header-text">
+        <p>Full-Stack Developer</p>
+        <h1>Hi, I'm <span>Merci</span><br>from Rwanda</h1>
+      </div>
+    </div>
+  </header>
+<!---about-->
+  <main>
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-img">
+             <img src="/image/backi2.png">
+          </div>
+          <div class="about-content">
+            <h2 class="sub-title">About Me</h2>
+            <p>I’m Nzabinesha Merci, a Full‑Stack Developer at ALU with strong expertise in various technologies.</p>
+            <div class="tab-titles">
+              <button class="tab-links active-link" onclick="openTab('skills')">Skills</button>
+              <button class="tab-links" onclick="openTab('experience')">Experience</button>
+              <button class="tab-links" onclick="openTab('education')">Education</button>
+            </div>
+
+            <div id="skills" class="tab-contents active-tab">
+              <ul>
+                <li><strong>UI/UX</strong><br>Designing web & app interfaces</li>
+                <li><strong>Web Development</strong><br>Building web applications</li>
+                <li><strong>App Development</strong><br>Creating Android/iOS applications</li>
+              </ul>
+            </div>
+
+            <div id="experience" class="tab-contents">
+              <ul>
+                <li><strong>Jun – Sep 2023</strong><br>Front-End Developer at Huye</li>
+                <li><strong>Nov 2023 – Feb 2024</strong><br>Full-Stack Developer at UR Campus</li>
+                <li><strong>Mar 2024 – Present</strong><br>Full‑Stack Developer at Meta</li>
+              </ul>
+            </div>
+
+            <div id="education" class="tab-contents">
+              <ul>
+                <li><strong>Gahini</strong><br>Physics, Chemistry, Biology</li>
+                <li><strong>African Leadership University</strong><br>Software Engineering</li>
+                <li><strong>Coursera</strong><br>Full‑Stack Development</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!--services-->
+    <section id="services">
+      <div class="container">
+        <h2 class="sub-title">My Services</h2>
+        <div class="services-list">
+          <div class="service-card">
+            <i class="fa-solid fa-code"></i>
+            <h3>Web Design</h3>
+            <p>I craft user-friendly web layouts optimized for conversion and experience.</p>
+          </div>
+          <div class="service-card">
+            <i class="fa-solid fa-crop"></i>
+            <h3>UI/UX Design</h3>
+            <p>Designing intuitive interfaces that delight users.</p>
+          </div>
+          <div class="service-card">
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h3>App Design</h3>
+            <p>Creating polished mobile app experiences for Android & iOS.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+<!---portfolio-->
+    <section id="portfolio">
+      <div class="container">
+        <h2 class="sub-title">My Work</h2>
+        <div class="work-list">
+          <div class="work-card">
+            <img src="/image/woek2.jpg" alt="Social Media App 1">
+            <div class="overlay">
+              <h4>Social Media App</h4>
+              <p>Connect with creative minds around the world. Available on Play Store.</p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work-card">
+            <img src="/image/work1.jpg" alt="Social Media App 2">
+            <div class="overlay">
+              <h4>Social Media App</h4>
+              <p>Connect with creative minds around the world. Available on Play Store.</p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work-card">
+            <img src="/image/work1.jpg" alt="Social Media App 3">
+            <div class="overlay">
+              <h4>Social Media App</h4>
+              <p>Connect with creative minds around the world. Available on Play Store.</p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </section>
+<!--contact-->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-info">
+            <h2 class="sub-title">Contact Me</h2>
+            <p><i class="fa-solid fa-paper-plane"></i> mercinzabine01@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i> +250 793 735 663</p>
+            <div class="social-icons">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="Nzabinesha_Merci_Resume.pdf" download class="btn btn2">Download CV</a>
+          </div>
+
+          <div class="contact-form">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="Email" placeholder="Your Email" required>
+              <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <footer class="copyright">
+        <p>© Merci <i class="fa-solid fa-heart"></i> by Nzabinesha</p>
+      </footer>
+    </section>
+  </main>
+
+  <script>
+    // Tab navigation
+    const tabLinks = document.querySelectorAll('.tab-links');
+    const tabContents = document.querySelectorAll('.tab-contents');
+    function openTab(id) {
+      tabLinks.forEach(btn => btn.classList.remove('active-link'));
+      tabContents.forEach(content => content.classList.remove('active-tab'));
+      document.querySelector(`.tab-links[onclick="openTab('${id}')"]`).classList.add('active-link');
+      document.getElementById(id).classList.add('active-tab');
+    }
+
+    // Menu toggle
+    const sidemenu = document.getElementById('sidemenu');
+    function openMenu() { sidemenu.style.right = '0'; }
+    function closeMenu() { sidemenu.style.right = '-250px'; }
+
+    // Form submission feedback
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxNBy8KUuF9p-rkfLbKT3j10OR_mvYVdfM8EYNS90JeIJBwzMXZDVmGgL6OlChp6LtTxw/exec';
+    const form = document.forms['submit-to-google-sheet'];
+    const msg = document.getElementById('msg');
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+      msg.innerHTML = '<i class="fa fa-spinner fa-spin"></i> Sending...';
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(() => {
+          msg.textContent = '✅ Message sent successfully';
+          form.reset();
+          setTimeout(() => msg.textContent = '', 5000);
+        })
+        .catch(err => {
+          msg.textContent = '❌ Failed to send message';
+          console.error(err);
+        });
+    });
+  </script>
+</body>
+</html>

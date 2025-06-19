@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Merci's portifolio</title>
+    <link rel="stylesheet" href="merci.css">
+    <script src="https://kit.fontawesome.com/df54309e36.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <header>
+            <div id="header">
+             <div class="container">
+                <nav>
+                    <img src="image/Logo Marketing Agency Digital..png"  class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">home</a></li>
+                        <li><a href="#about">about</a></li>
+                        <li><a href="#services">services</a></li>
+                        <li><a href="#portfolio">portfolio</a></li>
+                        <li><a href="#contact">contact</a></li>
+                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul> 
+                    <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                <p>Front-End Developer & Web Infrastructure Enthusiast </p>
+                <h1>Hi, I'm <br><span>Nzabinesha Merci</span><br>Student at<br> African Leadership University</h1>
+
+            </div>
+            <a href="Nzabinesha Merci Resume.pdf"  download  class="btn btn2">Download  My Cv</a>
+            </div>
+        
+        </div>
+        </header> 
+    
+    <!----about------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="merci.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+I'm Nzabinesha Merci, a passionate software engineering student at African Leadership University with a strong foundation in Linux, Python, and front-end development. I bring hands-on experience as a front-end intern at Meta, where I contributed remotely to real-world projects. 
+<br><br>
+I thrive on solving complex problems, building responsive web applications, and learning about scalable web infrastructure. My goal is to build user-focused products that make a difference in people's lives.
+</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Exeprience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education </p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-End Development</span><br>Responsive websites using HTML, CSS, JavaScript & React</li>
+                            <li><span>Python Programming</span><br>Data handling, scripting & automation</li>
+                            <li><span>Database Management</span><br>MySQL, SQLite & basic PostgreSQL via Coursera training</li>
+                            <li><span>Data Analysis</span><br>Data cleaning & visualization using Python libraries</li>
+                            <li><span>Linux & Web Infrastructure</span><br>Basic system administration & deployment</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>September – December 2024</span><br>IREMBO Agent – Assisted users in accessing e-government services</li>
+                            <li><span>January – March 2025</span><br>IT Intern at G.S Bihinga – Provided support in hardware setup and basic troubleshooting</li>
+                            <li><span>Current</span><br>Front-End Intern at Meta (Remote) – Building UI components and improving site responsiveness</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Gahini Secondary School</span><br>Studied Physics, Chemistry, and Biology</li>
+                            <li><span>African Leadership University</span><br>Pursuing BSc in Software Engineering (Core: Linux, Python, Web Dev)</li>
+                            <li><span>Coursera</span><br>
+                            Completed certifications in Python for Everybody, Database Management, and Data Analysis
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+        
+
+            </div>
+            
+
+        </div>
+        <!-------services------>
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Development</h2>
+        <p>I build responsive and modern websites using HTML, CSS, JavaScript, and frameworks like React.</p>
+        <a href="https://en.wikipedia.org/wiki/Web_development" target="_blank">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-crop"></i>
+        <h2>UI/UX Design</h2>
+        <p>I design user-friendly interfaces with a focus on usability and visual aesthetics.</p>
+        <a href="https://en.wikipedia.org/wiki/User_interface_design" target="_blank">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-brands fa-app-store-ios"></i>
+        <h2>Mobile App Prototyping</h2>
+        <p>I create app mockups and prototypes to visualize and test user flows before development.</p>
+        <a href="https://en.wikipedia.org/wiki/Mobile_app_development" target="_blank">Learn more</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+        <!-----portfolio----->   
+        <section class="portfolio">
+            <div id="portfolio">
+            <div class="container">
+                 <h1 class="sub-title">My work</h1>
+                <div class="work-list">
+
+                <!-- Submission Reminder App -->
+                <div class="work">
+                    <img src="/image/submission-rem.png">
+                    <div class="layer">
+                    <h3>Submission Reminder App</h3>
+                    <p>An academic task manager that helps students track and get notified of deadlines.</p>
+                    <a href="https://github.com/Nzabinesha/submission_reminder_app_Nzabinesha" target="_blank" title="View code on GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    </div>
+                </div>
+
+                <!-- Satellite Data Analysis App -->
+                <div class="work">
+                    <img src="/image/images.sattelite.jpg">
+                    <div class="layer">
+                    <h3>Satellite Data Analysis App</h3>
+                    <p>Analyzed environmental trends using satellite imagery and data visualization with Python.</p>
+                    <a href="https://github.com/Nzabinesha/lab-1_sateliteDataAnalysis" target="_blank" title="View code on GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    </div>
+                </div>
+
+                <!-- Education Access Platform -->
+                <div class="work">
+                    <img src="/image/edu-learning.png">
+                    <div class="layer">
+                    <h3>Education Access Platform</h3>
+                    <p>Platform to increase access to learning materials and mentorship opportunities for students.</p>
+                    <a href="https://github.com/WamalwaSydney/Eduaccess" target="_blank" title="View code on GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    </div>
+                </div>
+
+                </div>
+
+                 <a href="https://github.com/Nzabinesha/submission_reminder_app_Nzabinesha"class="btn">See more</a>
+
+
+
+
+            </div>
+
+        </div>
+        </section>
+        
+        <!----contact------>
+        <footer>
+                    <section class="contact">
+                        <div id="contact">
+                        <div class="container">
+                        <div class="row">
+                            <div class="contact-left">
+                                <h1 class="sub-title">contact Me</h1>
+                                <p><i class="fa-solid fa-paper-plane"></i>mercinzabine01@gmail.com</p>
+                                <p><i class="fa-solid fa-phone"></i>+250793735663</p>
+                                <div class="social-icons">
+                                    <a href="https://www.facebook.com/share/197bmUVLEF/"><i class="fa-brands fa-facebook"></i></a>
+                                    <a href="https://share.google/SkLnD6CJPBMH9LC1u "><i class="fa-brands fa-twitter-square"></i></a>
+                                    <a href="https://www.instagram.com/mnzabinesha?igsh=YzljYTk1ODg3Zg=="><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="https://www.linkedin.com/in/merci-nzabinesha-37b477337?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium"><i class="fa-brands fa-linkedin"></i></a>
+                                </div>
+                                <a href="Nzabinesha Merci Resume.pdf"  download  class="btn btn2">Download My Cv</a>
+                            </div>
+                        
+                            <div class="contact-right">
+                                <form name='submit-to-google-sheet'>
+                                    <input type="text" name="Name" placeholder="Your name" required >
+                                    <input type="email" name="Email" placeholder="Your email" required>
+                                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                                    <button type="submit" class="btn btn2">Submit</button>
+                                </form>
+                                <span id="msg"></span>
+                            </div>
+
+                        </div>
+                        <div class="copyright">
+                            <p>copyright © Merci <i class="fa-solid fa-heart"> </i> by nzabinesha</p>
+                        </div>
+                    </div>
+                    </div>
+                </section>
+
+             
+        </footer>
+       
+
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for (tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for (tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+            event.currentTarget.classList.add("active-link") 
+            document.getElementById(tabname).classList.add("active-tab") 
+            }
+        </script>
+        <script>
+            var sidemenu=document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right="0"
+            }
+            function closemenu(){
+                sidemenu.style.right="-200px"
+            }
+        </script>
+       <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxNBy8KUuF9p-rkfLbKT3j10OR_mvYVdfM8EYNS90JeIJBwzMXZDVmGgL6OlChp6LtTxw/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+
+    // Show spinner immediately
+    msg.innerHTML = '<i class="fa fa-spinner fa-spin"></i> Sending...'
+
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "✅ Message sent successfully"
+        setTimeout(() => {
+          msg.innerHTML = ""
+        }, 5000)
+        form.reset()
+      })
+      .catch(error => {
+        msg.innerHTML = "❌ Failed to send message"
+        console.error('Error!', error.message)
+      })
+  })
+</script>
+
+
+    </div>
+    
+    </main>
+    
+</body>
+</html>
