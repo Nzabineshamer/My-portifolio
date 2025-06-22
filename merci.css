@@ -21,9 +21,11 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding:20px;
 }
 .logo{
     width: 140px;
+    padding: 20px;
 }
 nav ul li{
     display: inline-block;
