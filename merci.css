@@ -13,6 +13,18 @@ body{
     background: #080808;
     color:#fff;
 }
+#header {
+  width: 100%;
+  height: 100vh;
+  background-color: #080808;
+  background-image: url(background-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 300px auto; /* Adjust width here */
+  display: flex;
+  align-items: center;
+}
+
 .container{
     padding:10px 10%;
 }
@@ -444,17 +456,7 @@ nav {
   z-index: 1000;
  
 }
-#header {
-  width: 100%;
-  height: 100vh;
-  background-color: #080808;
-  background-image: url(background-removebg-preview.png);
-  background-repeat: no-repeat;
-  background-position: right center;
-  background-size: 300px auto; /* Adjust width here */
-  display: flex;
-  align-items: center;
-}
+
 
 
 
